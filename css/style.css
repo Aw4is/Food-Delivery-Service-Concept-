@@ -1,6 +1,4 @@
-/**************************/
-/* HEADER */
-/**************************/
+/* ---- Header ----- */
 
 .header {
   display: flex;
@@ -18,10 +16,7 @@
   height: 5.4rem;
 }
 
-/**************************/
-/* NAVIGATION */
-/**************************/
-
+/* ---- Navigation ---- */
 .main-nav-list {
   list-style: none;
   display: flex;
@@ -56,6 +51,7 @@
 .main-nav-link.nav-cta:active {
   background-color: #008080;
 }
+
 
 /* MOBILE */
 .btn-mobile-nav {
@@ -190,7 +186,7 @@
 .step-number {
   font-size: 8.6rem;
   font-weight: 600;
-  color: #ddd;
+  color: #339999;
   margin-bottom: 1.2rem;
 }
 
@@ -252,6 +248,7 @@
   border-radius: 11px;
   overflow: hidden;
   transition: all 0.4s;
+
 }
 
 .meal:hover {
@@ -288,6 +285,23 @@
 .tag--paleo {
   background-color: #ffd43b;
 }
+.tag--pesc {
+  background-color: burlywood;
+}
+.tag--gluten {
+  background-color: yellow;
+}
+.tag--lactose {
+  background-color: cadetblue;
+}
+.tag--keto {
+  background-color: lightsalmon;
+}
+.tag--fodmap {
+  background-color: violet;
+}
+
+
 
 .meal-title {
   font-size: 2.4rem;
@@ -325,24 +339,41 @@
   font-size: 1.8rem;
 }
 
+.gridSize{
+  width:100rem;
+}
+
+.diets{
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  align-items: center;   
+  margin-bottom: 2rem;
+}
+
+.flex-list{
+  display: flex;
+  gap:1.5rem;
+}
+
+
+
 /* ---- Testimonial Section */
 
-.section-testimonials {
-  background-color: #e6f2f2;
-  display: grid;
-  grid-template-columns: 55fr 45fr;
-  align-items: center;
-}
 
 .testimonials-container {
   padding: 9.6rem;
 }
 
 .testimonials {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  row-gap: 4.8rem;
-  column-gap: 8rem;
+  display: flex;
+  justify-content: center;
+  gap:20rem;
+  
+}
+
+.testimonial{
+  width:20rem;
 }
 
 .testimonial-img {
@@ -355,11 +386,15 @@
   font-size: 1.8rem;
   line-height: 1.8;
   margin-bottom: 1.6rem;
+
+  border: 2px solid #ffffff; /* 2px border, solid style, black color */
+  border-radius: 8px;
+  padding: 0.5rem;
 }
 
 .testimonial-name {
   font-size: 1.6rem;
-  color: #6f6f6f;
+  color: #ffffff;
 }
 
 .gallery {
@@ -383,9 +418,25 @@
   transform: scale(1.1);
 }
 
-/**************************/
-/* MEALS SECTION */
-/**************************/
+
+.gallery--background{
+  width:100%
+
+}
+
+.section-testimonials {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../img/gallery/gallery-1.jpg);  
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+  padding: 50px 20px; 
+  color: white; 
+}
+
+
+
+
+/* ---- Pricing ---- */
 
 .section-pricing {
   padding: 9.6rem 0;
@@ -573,9 +624,7 @@
   box-shadow: 0 0 0 0.8rem rgba(253, 242, 233, 0.5);
 }
 
-/**************************/
-/* FOOTER */
-/**************************/
+/* ---- Footer ---- */
 
 .footer {
   padding: 12.8rem 0;
@@ -648,4 +697,9 @@
 .footer-link:hover,
 .footer-link:active {
   color: #555;
+}
+
+
+.white{
+  color:white;
 }

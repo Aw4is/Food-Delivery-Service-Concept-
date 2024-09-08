@@ -48,10 +48,10 @@
 
       <nav class="main-nav">
         <ul class="main-nav-list">
-          <li><a class="main-nav-link" href="#how">How it Works</a></li>
+          <li><a class="main-nav-link" href="#how">Getting Started</a></li>
           <li><a class="main-nav-link" href="#meals">Meals</a></li>
           <li>
-            <a class="main-nav-link" href="#testimonials">Testimonials</a>
+            <a class="main-nav-link" href="#testimonials">Reviews</a>
           </li>
           <li><a class="main-nav-link" href="#pricing">Prices</a></li>
           <li><a class="main-nav-link nav-cta" href="#cta">Sign Up</a></li>
@@ -78,7 +78,7 @@
               >Eat Healthy</a
             >
 
-            <a href="#how" class="btn btn--outline">Learn more &darr;</a>
+            <a href="#how" class="btn btn--outline white">Learn more &darr;</a>
             <div class="delivered-meals">
               <div class="delivered-imgs">
               </div>
@@ -87,11 +87,8 @@
           </div>
           <div class="hero-img-box">
             <picture>
-              <source srcset="img/hero.webp" type="image/webp" />
-              <source srcset="img/hero-min.png" type="image/png" />
-
               <img
-                src="img/hero-min.png"
+                src="img/foodStart.jpg"
                 class="hero-img"
                 alt="Woman enjoying food, meals in storage container, and food bowls on a table"
               />
@@ -173,7 +170,7 @@
           </h2>
         </div>
 
-        <div class="container grid grid--3-cols margin-bottom-md">
+        <div class="container grid grid--2-cols gridSize margin-bottom-md ">
           <div class="meal">
             <img
               src="img/meals/meal-1.jpg"
@@ -195,11 +192,11 @@
                     class="meal-icon"
                     name="restaurant-outline"
                   ></ion-icon>
-                  <span>NutriScore &reg; <strong>65</strong></span>
+                  <span>Score: <strong>65</strong></span>
                 </li>
                 <li class="meal-attribute">
                   <ion-icon class="meal-icon" name="star-outline"></ion-icon>
-                  <span><strong>4.7</strong> rating (200)</span>
+                  <span><strong>4.7</strong> rating</span>
                 </li>
               </ul>
             </div>
@@ -227,58 +224,48 @@
                     class="meal-icon"
                     name="restaurant-outline"
                   ></ion-icon>
-                  <span>NutriScore &reg; <strong>88</strong></span>
+                  <span>Score: <strong>88</strong></span>
                 </li>
                 <li class="meal-attribute">
                   <ion-icon class="meal-icon" name="star-outline"></ion-icon>
-                  <span><strong>4.5</strong> rating (321)</span>
+                  <span><strong>4.5</strong> rating</span>
                 </li>
               </ul>
             </div>
           </div>
+        </div>
+
 
           <div class="diets">
             <h3 class="heading-tertiary">Compatible with every diet:</h3>
-            <ul class="list">
+            <ul class="flex-list">
               <li class="list-item">
-                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
-                <span>Vegetarian</span>
+                <span class="tag tag--vegetarian">Vegetarian</span>
               </li>
               <li class="list-item">
-                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
-                <span>Vegan</span>
+                <span class = "tag tag--vegan">Vegan</span>
               </li>
               <li class="list-item">
-                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
-                <span>Pescatarian</span>
+                <span class="tag tag--pesc">Pescatarian</span>
               </li>
               <li class="list-item">
-                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
-                <span>Gluten-free</span>
+                <span class="tag tag--gluten">Gluten-free</span>
               </li>
               <li class="list-item">
-                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
-                <span>Lactose-free</span>
+                <span class="tag tag--lactose">Lactose-free</span>
               </li>
               <li class="list-item">
-                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
-                <span>Keto</span>
+                <span class="tag tag--keto">Keto</span>
               </li>
               <li class="list-item">
-                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
-                <span>Paleo</span>
+                <span class="tag tag--paleo">Paleo</span>
               </li>
               <li class="list-item">
-                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
-                <span>Low FODMAP</span>
+                <span class="tag tag--fodmap">Low FODMAP</span>
               </li>
-              <li class="list-item">
-                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
-                <span>Kid-friendly</span>
-              </li>
+
             </ul>
           </div>
-        </div>
 
         <div class="container all-recipes">
           <a href="#" class="link">See all recipes &rarr;</a>
@@ -287,35 +274,50 @@
 
       <section class="section-testimonials" id="testimonials">
         <div class="testimonials-container">
-          <span class="subheading">Testimonials</span>
+          <span class="subheading">Reviews</span>
           <h2 class="heading-secondary">Try it out Now</h2>
 
           <div class="testimonials">
             <figure class="testimonial">
               <blockquote class="testimonial-text">
-                Inexpensive, healthy and great-tasting meals, without even
-                having to order manually!
+                "Inexpensive, healthy and great-tasting meals."
+
+                <p class="testimonial-name">&mdash; Josh Tylor</p>
               </blockquote>
-              <p class="testimonial-name">&mdash; Josh Tylor</p>
             </figure>
 
             <figure class="testimonial">
               <blockquote class="testimonial-text">
-                AI Algorithm does everything for you, highly recommend
+                "AI Algorithm does everything for you, very easy!"
+                <p class="testimonial-name">&mdash; Jacob Hadley</p>
               </blockquote>
-              <p class="testimonial-name">&mdash; Jacob Hadley</p>
+            </figure>
+
+
+            <figure class="testimonial">
+              <blockquote class="testimonial-text">
+                "I never need to cook ever again in my lifetime!""
+                <p class="testimonial-name">&mdash; Bob Taylor</p>
+              </blockquote>
+            </figure>
+
+
+            <figure class="testimonial">
+              <blockquote class="testimonial-text">
+                "Amazing service and a fantastic and helpful team"
+                <p class="testimonial-name">&mdash; Mo</p>
+              </blockquote>
             </figure>
           </div>
         </div>
 
-        <div class="gallery">
+        <!-- <div class="gallery">
           <figure class="gallery-item">
             <img
               src="img/gallery/gallery-1.jpg"
               alt="Photo of beautifully
             arranged food"
             />
-            <!-- <figcaption>Caption</figcaption> -->
           </figure>
           <figure class="gallery-item">
             <img
@@ -351,8 +353,8 @@
               alt="Photo of beautifully
             arranged food"
             />
-          </figure>
-        </div>
+          </figure> -->
+        <!-- </div> -->
       </section>
 
       <section class="section-pricing" id="pricing">
