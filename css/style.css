@@ -6,7 +6,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #fdf2e9;
+  background-color: #e6f2f2;
 
   /* Because we want header to be sticky later */
   height: 9.6rem;
@@ -41,7 +41,7 @@
 
 .main-nav-link:hover,
 .main-nav-link:active {
-  color: #cf711f;
+  color: #008080;
 }
 
 .main-nav-link.nav-cta:link,
@@ -49,12 +49,12 @@
   padding: 1.2rem 2.4rem;
   border-radius: 9px;
   color: #fff;
-  background-color: #e67e22;
+  background-color: #008080;
 }
 
 .main-nav-link.nav-cta:hover,
 .main-nav-link.nav-cta:active {
-  background-color: #cf711f;
+  background-color: #008080;
 }
 
 /* MOBILE */
@@ -94,12 +94,10 @@
   margin-top: 9.6rem;
 }
 
-/**************************/
-/* HERO SECTION */
-/**************************/
+/* ---- Hero Section ---- */
 
 .section-hero {
-  background-color: #fdf2e9;
+  background-color: #e6f2f2;
   padding: 4.8rem 0 9.6rem 0;
 }
 
@@ -156,9 +154,7 @@
   font-weight: 700;
 }
 
-/**************************/
-/* FEATURED IN SECTION */
-/**************************/
+/* ---- Featured in Section ---- */
 
 .section-featured {
   padding: 4.8rem 0 3.2rem 0;
@@ -185,9 +181,7 @@
   opacity: 50%;
 }
 
-/**************************/
-/* HOW IT WORKS SECTION */
-/**************************/
+/*---- How it Works ---- */
 
 .section-how {
   padding: 9.6rem 0;
@@ -231,14 +225,14 @@
   /* 60% of parent's width */
   padding-bottom: 60%;
 
-  background-color: #fdf2e9;
+  background-color: #e6f2f2;
   z-index: -2;
 }
 
 .step-img-box::after {
   width: 45%;
   padding-bottom: 45%;
-  background-color: #fae5d3;
+  background-color: #b3d9d9;
   z-index: -1;
 }
 
@@ -247,9 +241,7 @@
   /* z-index: 10; */
 }
 
-/**************************/
-/* MEALS SECTION */
-/**************************/
+/* ---- Meals ----- */
 
 .section-meals {
   padding: 9.6rem 0;
@@ -321,7 +313,7 @@
 .meal-icon {
   height: 2.4rem;
   width: 2.4rem;
-  color: #e67e22;
+  color: #006666;
 }
 
 .meal-img {
@@ -333,12 +325,10 @@
   font-size: 1.8rem;
 }
 
-/**************************/
-/* TESTIMONIALS SECTION */
-/**************************/
+/* ---- Testimonial Section */
 
 .section-testimonials {
-  background-color: #fdf2e9;
+  background-color: #e6f2f2;
   display: grid;
   grid-template-columns: 55fr 45fr;
   align-items: center;
@@ -414,7 +404,8 @@
 }
 
 .pricing-plan--complete {
-  background-color: #fdf2e9;
+  /* Draw more attention to it */
+  background-color: #e6f2f2;
   padding: 4.8rem;
   position: relative;
   overflow: hidden;
@@ -441,7 +432,7 @@
 }
 
 .plan-name {
-  color: #cf711f;
+  color: #008080;
   font-weight: 600;
   font-size: 2rem;
   text-transform: uppercase;
@@ -480,13 +471,14 @@
 }
 
 .feature-icon {
-  color: #e67e22;
+  color: #99cccc;
   height: 3.2rem;
   width: 3.2rem;
-  background-color: #fdf2e9;
   margin-bottom: 3.2rem;
   padding: 1.6rem;
   border-radius: 50%;
+
+  background-color: #008080;
 }
 
 .feature-title {
@@ -501,10 +493,7 @@
   line-height: 1.8;
 }
 
-/**************************/
-/* CTA SECTION */
-/**************************/
-
+/* ---- Call to Action */
 .section-cta {
   /* top / right / bottom / left */
   /* padding: 9.6rem 0 12.8rem 0; */
@@ -521,7 +510,7 @@
   box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.15);
   border-radius: 11px;
 
-  background-image: linear-gradient(to right bottom, #eb984e, #e67e22);
+  background-image: linear-gradient(to right bottom, #80c0c0, #008080);
   overflow: hidden;
 }
 
@@ -543,12 +532,7 @@
 }
 
 .cta-img-box {
-  background-image: linear-gradient(
-      to right bottom,
-      rgba(235, 151, 78, 0.35),
-      rgba(230, 125, 34, 0.35)
-    ),
-    url("../img/eating.jpg");
+
   background-size: cover;
   background-position: center;
 }
@@ -575,7 +559,7 @@
   font-family: inherit;
   color: inherit;
   border: none;
-  background-color: #fdf2e9;
+  /* background-color: #fdf2e9; */
   border-radius: 9px;
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
 }
