@@ -52,6 +52,13 @@
   background-color: #008080;
 }
 
+.main-nav-middle{
+  border: 2px solid #008080;
+  padding:0.6rem;
+  border-radius: 10px;
+}
+
+
 
 /* MOBILE */
 .btn-mobile-nav {
@@ -150,6 +157,14 @@
   font-weight: 700;
 }
 
+.eat-healthy{
+  background-color: transparent;
+}
+
+.stand-for{
+  display: flex;
+}
+
 /* ---- Featured in Section ---- */
 
 .section-featured {
@@ -184,15 +199,21 @@
 }
 
 .step-number {
-  font-size: 8.6rem;
+  font-size: 5rem;
   font-weight: 600;
   color: #339999;
-  margin-bottom: 1.2rem;
+  margin-bottom: 0.4rem;
+  margin-top: 0.4rem;
+  padding:1rem;
+
+
 }
 
 .step-description {
-  font-size: 1.8rem;
+  font-size: 1.4rem;
   line-height: 1.8;
+  color: #4da6a6;
+  margin-left: 1rem;
 }
 
 .step-img-box {
@@ -201,6 +222,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
+
+  /* width: 40rem; */
 }
 
 .step-img-box::before,
@@ -236,6 +259,74 @@
   width: 35%;
   /* z-index: 10; */
 }
+
+.grid-how{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+
+}
+
+
+.heading-how{
+  
+  margin-left: 1rem;
+}
+
+.center-how{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-clipboard{
+  width:60%;
+  position: relative;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+
+}
+
+
+.img-clipboard::before,
+.img-clipboard::after {
+  content: "";
+  display: block;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.img-clipboard::before {
+  width: 60%;
+  /* height: 60%; */
+
+  /* 60% of parent's width */
+  padding-bottom: 60%;
+
+  background-color: #e6f2f2;
+  z-index: -2;
+}
+
+.img-clipboard::after {
+  width: 45%;
+  padding-bottom: 45%;
+  background-color: #b3d9d9;
+  z-index: -1;
+}
+
+.img-clipboard-icon{
+  width:65%;
+  margin-left: 5rem;
+  margin-bottom: 1.5rem;
+}
+
+
 
 /* ---- Meals ----- */
 
