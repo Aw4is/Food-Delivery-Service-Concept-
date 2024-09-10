@@ -195,25 +195,48 @@
 /*---- How it Works ---- */
 
 .section-how {
-  padding: 9.6rem 0;
+  padding: 9.2rem 0;
 }
 
 .step-number {
   font-size: 5rem;
   font-weight: 600;
   color: #339999;
-  margin-bottom: 0.4rem;
+  margin-bottom: 1.4rem;
   margin-top: 0.4rem;
-  padding:1rem;
+  /* padding:1rem; */
 
+  text-align: center;
+
+  margin-right: 1rem;
 
 }
+
+.number-border{
+  border: 1px solid #339999; /* width, style, and color */
+  border-radius: 80%;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  padding-top: 0.2rem;
+  padding-bottom: 0.qrem;}
 
 .step-description {
   font-size: 1.4rem;
   line-height: 1.8;
   color: #4da6a6;
-  margin-left: 1rem;
+  margin-left: 6rem;
+  width:30rem;
+}
+
+.step-description-2 {
+  font-size: 1.4rem;
+  line-height: 1.8;
+  color: #4da6a6;
+  margin-left: 9rem;
+  width:30rem;
+  margin-bottom: 1.8rem;
+
+  
 }
 
 .step-img-box {
@@ -256,7 +279,7 @@
 }
 
 .step-img {
-  width: 35%;
+  width: 20%;
   /* z-index: 10; */
 }
 
@@ -264,13 +287,10 @@
   display: grid;
   grid-template-columns: repeat(3,1fr);
 
+
 }
 
 
-.heading-how{
-  
-  margin-left: 1rem;
-}
 
 .center-how{
   display: flex;
@@ -289,6 +309,7 @@
 
 
 }
+
 
 
 .img-clipboard::before,
@@ -330,6 +351,91 @@
   margin-bottom: 2.4rem;
 }
 
+.step-num-size{
+  width:5rem;
+  border: 1px solid #339999; /* width, style, and color */
+  border-radius: 50%;
+
+
+}
+
+.heading-how{
+  margin-right: 5rem;
+}
+
+.step-number-1{
+  font-size: 5rem;
+  font-weight: 600;
+  color: #339999;
+  margin-bottom: 0.4rem;
+  margin-top: 4.5rem;
+  /* padding:1rem; */
+
+  text-align: center;
+
+  margin-right: 1rem;
+}
+
+.step-number-2{
+  font-size: 5rem;
+  font-weight: 600;
+  color: #339999;
+  margin-bottom: 0.4rem;
+  margin-top: 0.4rem;
+  /* padding:1rem; */
+
+  text-align: center;
+
+  margin-right: 1rem;
+}
+
+.step-number-3{
+  font-size: 5rem;
+  font-weight: 600;
+  color: #339999;
+  margin-bottom: 0.4rem;
+  margin-top: 5rem;
+  /* padding:1rem; */
+
+  text-align: center;
+
+  margin-right: 1rem;
+}
+ 
+.heading-tertiary-3{
+  font-size: 2.8rem;
+  line-height: 1.2;
+  margin-bottom: 1.4rem;
+
+  color: #4da6a6;
+
+  margin-left: 8.8rem !important;
+  margin-top: 0.8rem;
+}
+
+.heading-tertiary-2{
+  font-size: 2.8rem;
+  line-height: 1.2;
+  margin-bottom: 1.4rem;
+
+  color: #4da6a6;
+
+  margin-left: 9.8rem !important;
+  margin-top: 0.8rem;
+
+}
+
+.heading-tertiary-1{
+  font-size: 2.8rem;
+  line-height: 1.2;
+  margin-bottom: 1.4rem;
+
+  color: #4da6a6;
+
+  margin-left: 8rem !important;
+  margin-top: 0.8rem;
+
+}
 
 
 /* ---- Meals ----- */
