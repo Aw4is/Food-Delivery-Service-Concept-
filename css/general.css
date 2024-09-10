@@ -71,8 +71,7 @@ html {
   font-size: 62.5%;
   overflow-x: hidden;
 
-  /* Does NOT work on Safari */
-  /* scroll-behavior: smooth; */
+  scroll-behavior: smooth;
 }
 
 body {
@@ -81,11 +80,9 @@ body {
   font-weight: 400;
   color: #555;
 
-  /* Only works if there is nothing absolutely positioned in relation to body */
   overflow-x: hidden;
 }
 
-/* ---- Reusable Components */
 
 .container {
   /* 1140px */
@@ -99,12 +96,8 @@ body {
   column-gap: 6.4rem;
   row-gap: 9.6rem;
 
-  /* margin-bottom: 9.6rem; */
 }
 
-/* .grid:last-child {
-  margin-bottom: 0;
-} */
 
 .grid:not(:last-child) {
   margin-bottom: 9.6rem;
@@ -122,10 +115,6 @@ body {
   grid-template-columns: repeat(4, 1fr);
 }
 
-/* .grid--5-cols {
-  grid-template-columns: repeat(5, 1fr);
-} */
-
 .grid--center-v {
   align-items: center;
 }
@@ -135,8 +124,6 @@ body {
 .heading-tertiary {
   font-weight: 700;
   color: #333;
-  /* color: #45260a; */
-  /* color: #343a40; */
   letter-spacing: -0.5px;
 }
 
@@ -186,7 +173,6 @@ body {
   padding: 1.6rem 3.2rem;
   border-radius: 9px;
 
-  /* Only necessary for .btn */
   border: none;
   cursor: pointer;
   font-family: inherit;
@@ -218,9 +204,7 @@ body {
 .btn--outline:active {
   background-color: #008080;
 
-  /* border: 3px solid #fff; */
-
-  /* Trick to add border inside */
+  /* Adds border inside */
   box-shadow: inset 0 0 0 3px #008080;
 }
 
@@ -275,12 +259,10 @@ body {
 
 *:focus {
   outline: none;
-  /* outline: 4px dotted #e67e22; */
-  /* outline-offset: 8px; */
+
   box-shadow: 0 0 0 0.8rem rgba(2, 90, 92, 0.5);
 }
 
-/* HELPER/SETTINGS CLASSES */
 .margin-right-sm {
   margin-right: 1.6rem !important;
 }

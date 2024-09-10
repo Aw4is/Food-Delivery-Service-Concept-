@@ -6,7 +6,6 @@
   align-items: center;
   background-color: #e6f2f2;
 
-  /* Because we want header to be sticky later */
   height: 9.6rem;
   padding: 0 4.8rem;
   position: relative;
@@ -64,44 +63,6 @@
   ;
 }
 
-
-
-/* MOBILE */
-.btn-mobile-nav {
-  border: none;
-  background: none;
-  cursor: pointer;
-
-  display: none;
-}
-
-.icon-mobile-nav {
-  height: 4.8rem;
-  width: 4.8rem;
-  color: #333;
-}
-
-.icon-mobile-nav[name="close-outline"] {
-  display: none;
-}
-
-/* STICKY NAVIGATION */
-.sticky .header {
-  position: fixed;
-  top: 0;
-  bottom: 0;
-  width: 100%;
-  height: 8rem;
-  padding-top: 0;
-  padding-bottom: 0;
-  background-color: rgba(255, 255, 255, 0.97);
-  z-index: 999;
-  box-shadow: 0 1.2rem 3.2rem rgba(0, 0, 0, 0.03);
-}
-
-.sticky .section-hero {
-  margin-top: 9.6rem;
-}
 
 /* ---- Hero Section ---- */
 
@@ -171,34 +132,7 @@
   display: flex;
 }
 
-/* ---- Featured in Section ---- */
-
-.section-featured {
-  padding: 4.8rem 0 3.2rem 0;
-}
-
-.heading-featured-in {
-  font-size: 1.4rem;
-  text-transform: uppercase;
-  letter-spacing: 0.75px;
-  font-weight: 500;
-  text-align: center;
-  margin-bottom: 2.4rem;
-  color: #888;
-}
-
-.logos {
-  display: flex;
-  justify-content: space-around;
-}
-
-.logos img {
-  height: 3.2rem;
-  filter: brightness(0);
-  opacity: 50%;
-}
-
-/*---- How it Works ---- */
+/*---- Steps ---- */
 
 .section-how {
   padding: 9.2rem 0;
@@ -210,7 +144,6 @@
   color: #339999;
   margin-bottom: 1.4rem;
   margin-top: 0.4rem;
-  /* padding:1rem; */
 
   text-align: center;
 
@@ -251,8 +184,6 @@
   display: flex;
   align-items: center;
   justify-content: center;
-
-  /* width: 40rem; */
 }
 
 .step-img-box::before,
@@ -688,21 +619,6 @@
   overflow: hidden;
 }
 
-.pricing-plan--complete::after {
-  content: "Best value";
-  position: absolute;
-  top: 6%;
-  right: -18%;
-
-  text-transform: uppercase;
-  font-size: 1.4rem;
-  font-weight: 700;
-  color: #333;
-  background-color: #ffd43b;
-  padding: 0.8rem 8rem;
-  transform: rotate(45deg);
-}
-
 .plan-header {
   text-align: center;
   margin-bottom: 4.8rem;
@@ -769,6 +685,64 @@
   font-size: 1.8rem;
   line-height: 1.8;
 }
+
+.pricing-btn{
+  display:block;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 0.4rem;
+
+  width:20rem;
+  margin: 0 auto;
+  padding:1rem;
+
+  gap:0.4rem;
+
+  
+
+  border: 2px solid black; 
+  border-radius: 20px;
+  /* background-color: #006666; */
+
+  margin-bottom: 1rem;
+  background: linear-gradient(to right, #b3d9d9 53%, #ffffff 50%);
+
+}
+
+.monthly-btn{
+font-size: 1.8rem;
+text-decoration: none;
+padding:0.4rem;
+
+/* background-color: #4da6a6; */
+}
+
+.annual-btn{
+  font-size: 1.8rem;
+  text-decoration: none;
+  padding:0.4rem;
+}
+
+.active-btn{
+  color: #004040;
+  font-weight: 500;
+}
+
+.inactive-btn{
+  color:#008080;
+}
+
+.monthly-btn:link,.monthly-btn:visited{
+  box-shadow: none !important; /* Reset any box-shadow */
+
+}
+
+.annual-btn:link,.annual-btn:visited{
+  box-shadow: none !important; /* Reset any box-shadow */
+
+}
+
 
 /* ---- Call to Action */
 .section-cta {
