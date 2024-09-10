@@ -56,6 +56,12 @@
   border: 2px solid #008080;
   padding:0.6rem;
   border-radius: 10px;
+  color: black !important;
+}
+
+.main-nav-middle:hover,.main-nan-middle:active{
+  background-color: #008080;
+  ;
 }
 
 
