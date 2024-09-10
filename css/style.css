@@ -349,6 +349,7 @@
 
 .step-delivered{
   margin-bottom: 2.4rem;
+  width: 35% !important;
 }
 
 .step-num-size{
