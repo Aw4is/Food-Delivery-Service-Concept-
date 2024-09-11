@@ -617,6 +617,7 @@
   padding: 4.8rem;
   position: relative;
   overflow: hidden;
+
 }
 
 .plan-header {
@@ -743,6 +744,23 @@ padding:0.4rem;
 
 }
 
+.list-icon-check{
+}
+
+.plan-name-complete{
+  border:2px solid #008080;
+  border-radius: 10px;
+  width: 13rem;
+  margin:auto;
+  margin-right: 9.2rem;
+  padding: 0.4rem;
+  margin-bottom: 2rem;
+
+  color: #e6f2f2;
+
+  background-color:#008080 ;
+}
+
 
 /* ---- Call to Action */
 .section-cta {
@@ -763,6 +781,7 @@ padding:0.4rem;
 
   background-image: linear-gradient(to right bottom, #80c0c0, #008080);
   overflow: hidden;
+  
 }
 
 .cta-text-box {

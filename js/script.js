@@ -39,8 +39,8 @@ annualBtn.addEventListener("click", function(e) {
   annualBtn.classList.remove("inactive-btn")
   annualBtn.classList.add("active-btn");
 
-  compPrice.textContent = (`£7788`);
-  basicPrice.textContent = (`£4788`);
+  compPrice.textContent = (`£110`);
+  basicPrice.textContent = (`£84`);
   
 });
 
@@ -54,6 +54,6 @@ monthlyBtn.addEventListener("click", function(e) {
   annualBtn.classList.add("inactive-btn")
   annualBtn.classList.remove("active-btn");
 
-  compPrice.textContent = ('£649');
-  basicPrice.textContent = ('£399');
+  compPrice.textContent = ('£10');
+  basicPrice.textContent = ('£7');
 });
